@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Islam & Sons — Product Catalog</title>
+<style>
+  :root {
+    --ink: #1b2a2e;
+    --paper: #f6f4ee;
+    --line: #d8d2c4;
+    --accent: #2f6f5e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--paper);
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--ink);
+    padding: 24px;
+  }
+  .card {
+    width: 100%;
+    max-width: 380px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 40px 32px;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 18px;
+  }
+  .eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0 0 6px;
+    font-weight: normal;
+  }
+  .subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 28px;
+  }
+  .view-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--accent);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+  }
+  .view-btn:hover { background: #24564a; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 26px 0 20px;
+  }
+  .contact {
+    font-family: Arial, sans-serif;
+    font-size: 12.5px;
+    color: #555;
+    line-height: 1.8;
+  }
+  .contact a { color: var(--ink); text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="M. Islam & Sons" class="logo">
+    <div class="eyebrow">M. Islam &amp; Sons</div>
+    <h1>Product Catalog</h1>
+    <div class="subtitle">DRAP-Registered Medical Device Importer &amp; Distributor</div>
+    <a class="view-btn" href="catalog.pdf" target="_blank">View / Download Catalog</a>
+    <hr>
+    <div class="contact">
+      🌐 <a href="https://www.misons.pk">www.misons.pk</a><br>
+      ✉️ <a href="mailto:Rtmedsutures@gmail.com">Rtmedsutures@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
